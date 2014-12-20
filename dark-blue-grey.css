@@ -1,5 +1,5 @@
 @-moz-document domain("laracasts.com") {
-.navbar {
+  .navbar {
   background-color: #1a2430 !important;
   border-top: 1px solid #556076 !important;
   padding: 20px 0 !important;
@@ -190,6 +190,102 @@ pre {
 
 .caret {
   border-top: 4px solid #fff !important;
+}
+
+.banner{
+  background: #414A5C;
+  padding: 7em 0;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid #333A49;
+}
+
+.banner__series-learning-points {
+  border-left: 1px solid #B6BAC1;
+  padding-left: 40px;
+  margin-top: 65px;
+  position: relative;
+  left: 40px;
+  color: #fff;
+}
+
+.jumbotron {
+  background: #3B3C41;
+  border-bottom: 1px solid #519294;
+  color: #fff;
+  padding: 62px 0;
+  margin-bottom: 70px;
+}
+
+.banner__series-learning-points h5 {
+  color: #A4B0BF;
+  font-size: 1.5em;
+  margin: 0 10px 0.5em 26px;
+}
+
+.reply__footer__like-list li {
+  margin-right: 7px;
+  background: #42435C;
+  position: relative;
+  top: 2px;
+}
+
+a {
+    color: #C8C8C8;
+}
+
+.reply__body p a {
+  color: #C8C8C8;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: #556080;
+  border-color: #414A5C;
+}
+
+::selection {
+  background: #556080;
+  color: #fff;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #5E6161;
+  border-color: #565656;
+  cursor: default;
+}
+
+.pagination>li>a, .pagination>li>span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.428571429;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+  color: #5E6161;
+}
+
+.episode-outline .episode-title .label-new {
+  margin-left: 8px;
+  background: #3F5884;
+}
+
+button.navbar-toggle {
+  background: #556080;
+}
+
+.modal-header {
+  background: #556080;
+  color: #fff;
+}
+
+.alert-info {
+  background: #556080;
+  color: #fff;
 }
 
 @media (max-width: 1200px) {
