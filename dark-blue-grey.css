@@ -84,6 +84,14 @@ main {
   border-top: 1px solid #556080 !important;
 }
 
+.lesson-block-thumbnail i {
+  top: 0 !important;
+  right: 0 !important;
+  overflow: hidden !important;
+  width: 58% !important;
+  height: 100% !important;
+}
+
 .media--conversation__body h5 {
   text-shadow: none !important;
 }
