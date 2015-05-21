@@ -132,6 +132,11 @@ border-left: 1px solid #555 !important;
   border-bottom: 1px solid #555 !important;
 }
 
+.input-naked--textarea {
+	background: #444 !important;
+	color: #ccc !important;
+}
+
 .reply:before,
 #question-stats:before,
 .participation:before {
