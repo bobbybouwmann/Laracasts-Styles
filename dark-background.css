@@ -1,0 +1,40 @@
+@-moz-document domain("laracasts.com") {
+	body {
+		background: #333 !important;
+	}
+
+	.Button--Muted {
+		background: #222 !important;
+	}
+  
+	.Conversation-List {
+		color: #ccc !important;
+	}
+  
+	.Conversation-List__item {
+		border-bottom: 1px solid #444 !important;
+	}
+  
+	.Conversation-List__item .Conversation-List__title {
+		color: #aaa !important;
+	}
+  
+	.Conversation-List__item .Conversation-List__title .title.updated {
+		color: #a893cb !important;
+	}
+  
+	.Comment {
+		color: #ccc !important;
+		background: #222 !important;
+		border: 1px solid #444 !important;
+	}
+  
+	.Comment>div {
+		padding: 20px !important;
+	}
+  
+	.Comment__footer {
+		border-bottom: none !important;
+		border-top: 1px solid #555 !important;
+	}
+}
