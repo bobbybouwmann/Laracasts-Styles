@@ -14,7 +14,7 @@
 	.Conversation-List__item {
 		border-bottom: 1px solid #444 !important;
 	}
-  
+ 
 	.Conversation-List__item .Conversation-List__title {
 		color: #aaa !important;
 	}
@@ -36,5 +36,34 @@
 	.Comment__footer {
 		border-bottom: none !important;
 		border-top: 1px solid #555 !important;
+	}
+
+	.Heading--Fancy {
+		color: #9a9a9a !important;
+	}
+
+	.Lesson-List {
+		background: #333 !important;
+    	border: 1px solid #444 !important;
+	}
+
+	.Lesson-List .Lession-List__item {
+		border-bottom: 1px solid #444 !important;
+	}
+
+	.Lesson-List .Lession-List__item .Lesson-List__title {
+		color: #9a9a9a !important;
+	}
+
+	.Lesson-List .Lession-List__item .Lesson-List__title {
+		color: #9a9a9a !important;
+	}
+
+	.Lesson-List .Lession-List__item--is-complete .Lesson-List__title {
+		color: #99c93d !important;
+	}
+
+	.Footer {
+		background: #000 !important;
 	}
 }
